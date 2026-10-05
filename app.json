@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "VKU Study Room",
+    "slug": "vku-study-room",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "vku-study-room",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F766E"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#0F766E"
+        }
+      ],
+      "expo-status-bar"
+    ]
+  }
+}
